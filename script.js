@@ -23,8 +23,8 @@ window.promises = [
 		setTimeout(()=>{
 			resolve("Promise 5")
 		},5000)
-	}),
-];
+	})
+]
 Promise.any(promises).then((result)=>{
 	document.getElementById("output").innerhtml=result;
 });
