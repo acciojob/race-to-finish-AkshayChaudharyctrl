@@ -26,7 +26,7 @@ window.promises = [
 	})
 ]
 Promise.any(promises).then((result)=>{
-	document.getElementById("output").innerhtml=result;
+	document.getElementById("output").innerHTML=result;
 });
 // Do not change the code above this
 // add your promises to the array `promises`
